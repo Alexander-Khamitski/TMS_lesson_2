@@ -14,6 +14,7 @@ public class Task5 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter any positive number: ");
         int number = scanner.nextInt();
+        scanner.close();
         if (number > 0) {
             int sumOfNumbers = 0;
             System.out.print("Sum of next array {");
